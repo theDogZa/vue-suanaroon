@@ -1,0 +1,142 @@
+{
+    "test": {
+        "-1": {
+            "a":"aa",
+            "b":"bb"
+        },
+        "0": {
+            "a":"aaaa",
+            "b":"bbbb"
+        }
+    },
+    "ExStatus": {
+        "-1": {
+            "code": -1,
+            "txt": "Extension not found",
+            "class": "important",
+            "background": "red-background"
+        }, 
+        "0": {
+            "code": 0,
+            "txt": "Idle",
+            "class": "success",
+            "background": "green-background"
+        },
+        "1": {
+            "code": 1,
+            "txt": "In Use",
+            "class": "warning",
+            "background": "orange-background"
+        },
+        "2": {
+            "code": 2,
+            "txt": "Busy",
+            "class": "success",
+            "background": "green-background"
+        },
+        "4": {
+            "code": 4,
+            "txt": "Unavailable",
+            "class": "important",
+            "background": "red-background"
+        },
+        "8": {
+            "code": 8,
+            "txt": "Ringing",
+            "class": "warning",
+            "background": "orange-background"
+        },
+        "9": {
+            "code": 9,
+            "txt": "In Use",
+            "class": "warning",
+            "background": "orange-background"
+        },
+        "16": {
+            "code": 16,
+            "txt": "On Hold",
+            "class": "warning",
+            "background": "orange-background"
+        },
+        "20": {
+            "code": 20,
+            "txt": "Registered",
+            "class": "success",
+            "background": "green-background"
+        },
+        "21": {
+            "code": 21,
+            "txt": "Unregistered",
+            "class": "important",
+            "background": "red-background"
+        },
+        "22": {
+            "code": 22,
+            "txt": "Reachable",
+            "class": "success",
+            "background": "green-background"
+        }
+    },
+    "QueueStatus": {
+        "0": {
+            "code": 0,
+            "txt": "Unkown",
+            "class": "default",
+            "background": "muted-background"
+        },
+        "1":  {
+            "code": 1,
+            "txt": "Not in Use",
+            "class": "success",
+            "background": "green-background"
+        },
+        "2": {
+            "code": 2,
+            "txt": "In Use",
+            "class": "warning",
+            "background": "orange-background"
+        },
+        "3": {
+            "code": 3,
+            "txt": "Busy",
+            "class": "default",
+            "background": "muted-background"
+        },
+        "4": {
+            "code": 4,
+            "txt": "Invalid",
+            "class": "default",
+            "background": "muted-background"
+        },
+        "5": {
+            "code": 5,
+            "txt": "Unavailable",
+            "class": "important",
+            "background": "red-background"
+        },
+        "6": {
+            "code": 6,
+            "txt": "Ringing",
+            "class": "warning",
+            "background": "orange-background"
+        },
+        "7": {
+            "code": 7,
+            "txt": "In Use Ringing",
+            "class": "warning",
+            "background": "orange-background"
+        },
+        "8": {
+            "code": 8,
+            "txt": "On Hold",
+            "class": "blue",
+            "background": "blue-background"
+        },
+        "9": {
+            "code": 9,
+            "txt": "Paused",
+            "class": "warning",
+            "background": "orange-background"
+        }
+    }
+}

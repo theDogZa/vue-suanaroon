@@ -1,0 +1,106 @@
+#app {
+    /* font-family: 'Kanit','Trirong', serif, 'Avenir', Helvetica, Arial, sans-serif; */
+    font-family: 'Prompt',Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    font-size: 16px;
+    /* margin-top: 60px; */
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 10px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+a:hover {
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+a {
+    color:rgb(84, 83, 83);
+}
+b{
+    color: #2c3e50;
+}
+/** -----------section-title-----*/
+.section-title-container {
+    margin-bottom: 1.5em;
+}
+.section-title {
+    position: relative;
+    -js-display: flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+}
+.section-title b {
+    display: block;
+    -ms-flex: 1;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+    background-color: currentColor;
+}
+.section-title-center span, .section-title-bold-center span {
+    text-align: center;
+}
+.section-title-center span {
+    margin: 0 15px;
+}
+
+/** -----------justified -----*/
+.justified-item img{
+    width: 100%;
+  }
+  .justified-item img[lazy=loading] {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50px;
+    width: 50px;
+    margin: -25px 0 0 -25px;
+    border: 4px #FFFFFF solid;
+    border-top: 4px #008744 solid;
+    border-right: 4px #288745 solid;
+    border-bottom: 4px #ffffff solid;
+    border-radius: 50%;
+    -webkit-animation: spin5 1s infinite linear;
+    animation: spin5 1s infinite linear;
+  }
+
+  /** -----------banner -----*/
+  .banner-bg {
+    background-image: url('http://placehold.it/100/24f355');
+    transition: background .5s cubic-bezier(0.8, 0.3, 0.5, 0.8);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.banner-bg:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.3);
+}
+
+.banner-hight{
+    height: 90%;
+    min-height: 550px;
+}
